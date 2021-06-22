@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint GoatBasic.podspec' to ensure this is a
+# Be sure to run `pod lib lint GoatCore.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'GoatBasic'
-  s.version          = '0.0.3'
+  s.name             = 'GoatCore'
+  s.version          = '0.0.4'
   s.summary          = 'A common framework of GoatGames iOS SDK.'
   s.homepage         = 'https://developer.goatgames.com'
 
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = "A short description of GoatBasic. All other framework will pod it"
+  s.description      = "A short description of GoatCore. All other framework will pod it"
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'SuperCells' => 'lixiaojian@goatgames.com' }
   s.source           = { :git => 'https://github.com/SuperCells/example.git', :tag => s.version.to_s }
@@ -27,10 +27,10 @@ Pod::Spec.new do |s|
 
   # GoatGames Framework
   #需要包含的源文件,按照你的文件层级来
-  s.source_files = 'GoatBasic/GoatBasic.framework/Headers/*.{h}'
+  s.source_files = 'GoatCore/GoatBasic.framework/Headers/*.{h}'
 
   #你的SDK路径
-  s.vendored_frameworks = ['GoatBasic/GoatBasic.framework']
+  s.vendored_frameworks = ['GoatCore/GoatBasic.framework']
 
   # 排除模拟器架构
   # 另外一种解决方法是用XCFramework
@@ -40,9 +40,9 @@ Pod::Spec.new do |s|
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 
-  # s.source_files = 'GoatBasic/Classes/**/*'
+  # s.source_files = 'GoatCore/Classes/**/*'
   # s.resource_bundles = {
-  #   'GoatBasic' => ['GoatBasic/Assets/*.png']
+  #   'GoatCore' => ['GoatCore/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
