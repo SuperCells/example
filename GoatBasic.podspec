@@ -92,7 +92,7 @@ spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.source_files  = "GoatBasic/*"
   spec.exclude_files = "Classes/Exclude"
 
-  # spec.public_header_files = "*.h"
+  spec.public_header_files = "*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
