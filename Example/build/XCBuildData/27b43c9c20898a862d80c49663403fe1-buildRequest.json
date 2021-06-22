@@ -1,0 +1,42 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "1fbc725c23adcdc845cf767866dd862f091f4f6a6358933b335c5ebea6553ba1"
+    },
+    {
+      "guid" : "1fbc725c23adcdc845cf767866dd862f994e871bc8e59c2f962ea6827ff54ec2"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/jesseli/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/jesseli/Library/Developer/Xcode/DerivedData/Pods-axzblocnojhncycasodxxrvzbgwd/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/jesseli/Library/Developer/Xcode/DerivedData/Pods-axzblocnojhncycasodxxrvzbgwd/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}

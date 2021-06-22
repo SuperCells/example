@@ -1,0 +1,6 @@
+use_frameworks!
+target 'GoatBasic_Tests' do
+  pod 'GoatBasic', :path => '../'
+  
+  
+end

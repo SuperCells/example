@@ -1,0 +1,16 @@
+PODS:
+  - GoatBasic (0.1.0)
+
+DEPENDENCIES:
+  - GoatBasic (from `../`)
+
+EXTERNAL SOURCES:
+  GoatBasic:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GoatBasic: 02d713987cf979065a090688b077982158d7d856
+
+PODFILE CHECKSUM: 8f2f3cf03dcbd1dfb36a32bdb425daba384e815b
+
+COCOAPODS: 1.10.1

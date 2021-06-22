@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+GoatBasic in Pods
+Pods-GoatBasic_Tests in Pods, depends on:
+GoatBasic in Pods (explicit)
